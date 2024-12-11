@@ -30,7 +30,7 @@ body {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 20px;
-  border-radius: 25px;
+  border-radius: 20px;
   text-align: left;
   flex-grow: 1;
   box-shadow: rgb(201, 201, 201) 0px 0px 5px;
@@ -109,8 +109,16 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  .background {
+    height: 200px;
+    background-image: url(/assets/images/background-pattern-mobile.svg);
+
+  }
   .container {
-    margin: 5% 10%;
+    margin: 30% 5%;
+    border-radius: 10px;
+
   }
 
   .container h1 {
@@ -120,4 +128,10 @@ body {
   .acordeon h2 {
     font-size: 16px;
   }
+
+  .acordeon .answer {
+    font-size: 14px;
+  }
+
+  
 }
